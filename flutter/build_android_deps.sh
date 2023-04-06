@@ -16,7 +16,7 @@ if [ -z "$VCPKG_ROOT" ]; then
   exit 1
 fi
 
-API_LEVEL="21"
+API_LEVEL="23"
 
 # NDK llvm toolchain
 HOST_TAG="linux-x86_64" # current platform, set as `ls $ANDROID_NDK/toolchains/llvm/prebuilt/`
